@@ -1,0 +1,69 @@
+@padding-md:20px;
+.fix-background{
+  background-attachment: fixed;
+}
+.m-header{
+  background-color:#fff;
+  &__logo,&__text{
+    display:inline-block;
+    padding-left: @padding-md;
+  }
+  &__background{
+    position:relative;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../images/home-background.jpg");
+    background-size: cover;
+    @media screen and (max-width: 800px){
+      .motto {
+        width: 90%;
+        top:4em;
+        margin:0 auto;
+      }
+    }
+
+    @media screen and (max-width: 960px) {
+      .motto {
+        width: 80%;
+      }
+    }
+     .motto {
+       position:absolute;
+      font-family: "BiauKai", "STKaiti", "WenQuanYi Micro Hei";
+      font-size: 1.4em;
+      font-weight: 100;
+      line-height: 1.4em;
+      color: white;
+      text-align: center;
+      width: 100%;
+       top:10em;
+       margin:0 auto;
+    }
+    .header-date{
+      position: absolute;
+      left: 40px;
+      bottom: 30px;
+      writing-mode: tb-rl;
+      font-size: 36px;
+      color: #fff;
+      font-size: 25px;
+      font-weight: 200;
+      font-family: "STSong";
+    }
+  }
+  &__nav{
+    width: 100vw;
+    position: absolute;
+    top:0;
+    right: @padding-md;
+    overflow:hidden;
+    .ant-menu{
+      background: none;
+    }
+    .ant-menu-horizontal{
+      border:none;
+      color:#fff;
+    }
+  }
+}
