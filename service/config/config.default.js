@@ -22,24 +22,13 @@ module.exports = appInfo => {
   const userConfig = {
     // myAppName: 'egg',
   };
-  config.mysql = {
-    // database configuration
-    client: {
-      // host
-      host: '111.231.9.226',
-      // port
-      port: '3306',
-      // username
-      user: 'root',
-      // password
-      password: 'Zy@',
-      // database
-      database: 'blog',
-    },
-    // load into app, default is open
-    app: true,
-    // load into agent, default is close
-    agent: false,
+  config.sequelize = {
+    dialect: 'mysql', // support: mysql, mariadb, postgres, mssql
+    database: 'blog',
+    host: '111.231.9.226',
+    port: 3306,
+    username: 'root',
+    password: 'Zy@772064323',
   };
   return {
     ...config,

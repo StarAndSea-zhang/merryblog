@@ -1,4 +1,6 @@
 
+// @ts-ignore
+// @ts-ignore
 import axios, {
     AxiosInstance,
     AxiosPromise,

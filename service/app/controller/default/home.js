@@ -11,18 +11,20 @@ class HomeController extends Controller {
     // }
 
     async list(){
-        const { ctx } = this;
-        ctx.body = '<h1>list</h1>'
+        const type = await this.ctx.model.Type.findAll();
+        this.ctx.body = type;
     }
 
     async lastest(){
-        let sql = 'select article.id as id ,'+
-            'article.title as title ,'+
-            'article.introduce as introduce ,'+
-            'article.createTime as createTime '+
-            'from article left join type on article.typeId = type.id'
-       const results = await this.app.mysql.query(sql)
-        this.ctx.body = {code:'200',data:results}
+       //  let sql = 'select article.id as id ,'+
+       //      'article.title as title ,'+
+       //      'article.introduce as introduce ,'+
+       //      'article.createTime as createTime '+
+       //      'from article left join type on article.typeId = type.id'
+       // const results = await this.app.mysql.query(sql)
+        const article = await this.ctx.model.Article.findAll();
+
+        this.ctx.body = {code:'200',data:article}
     }
 }
 
