@@ -28,7 +28,7 @@ module.exports = appInfo => {
     host: '111.231.9.226',
     port: 3306,
     username: 'root',
-    password: 'Zy@772064323',
+    password: 'Zy@',
   };
   return {
     ...config,
