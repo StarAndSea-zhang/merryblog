@@ -8,11 +8,12 @@ import BaseResponse from './BaseResponse';
  *  linkUrl:string; 背景图跳转游戏URL
  * }
  */
-export async function lastest(): Promise<BaseResponse<Array<any>>> {
+export async function login(data: any): Promise<BaseResponse<any>> {
     return (
-        await NetWorkUtil.createAPI<any, BaseResponse<Array<any>>>(
-            '/default/lastest',
-            'GET'
+        await NetWorkUtil.createAPI<any, BaseResponse<any>>(
+            '/admin/login',
+            'POST',
+            data
         )
     ).data;
 }
