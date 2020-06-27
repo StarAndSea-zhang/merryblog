@@ -17,7 +17,6 @@ class App extends React.Component {
           <Router>
               <Switch>
                   {routes.map((route: RouteInterface, i: number) => {
-                      console.log(route)
                       return RouteWithSubRoutes(route, i)
                   })}
               </Switch>

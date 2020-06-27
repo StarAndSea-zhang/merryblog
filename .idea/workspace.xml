@@ -2,93 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41215721-8c3f-43cc-bb64-99707bccf977" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/.idea/typescript-react-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/README-CRA.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/config/jest/typescriptTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/config/polyfills.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/config/webpack.config.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/config/webpack.config.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/images.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/App.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/actions/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/api/BaseResponse.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/api/ConstantField.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/api/Login.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/api/NetworkUtils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/components/Counter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/components/CreateArticle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/constants/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/container/CountCon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/pages/Home.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/pages/Login.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/reducer/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/registerServiceWorker.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/router/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/static/common.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/static/interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/types/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/tsconfig.prod.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/tsconfig.test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/tslint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/yarn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/app/entiy/BaseResponse.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/app/entiy/ResponseFactory.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/app/entiy/UserInfo.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/.github/workflows/nodejs.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/admin/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/admin/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/config/env.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/config/env.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/config/getHttpsConfig.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/config/jest/fileTransform.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/config/jest/fileTransform.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/config/modules.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/config/paths.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/config/paths.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/config/pnpTs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/config/webpack.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/config/webpackDevServer.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/config/webpackDevServer.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/admin/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/scripts/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/scripts/build.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/scripts/start.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/scripts/start.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/scripts/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/scripts/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/api/request.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/api/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/app.less" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/app.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/pages/article-create.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/pages/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/pages/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/pages/menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/setupProxy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/admin/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/app/controller/admin/home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/service/app/controller/admin/home.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/app/controller/default/home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/service/app/controller/default/home.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/app/router/admin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/service/app/router/admin.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/config/config.default.ts" beforeDir="false" afterPath="$PROJECT_DIR$/service/config/config.default.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/config/plugin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/service/config/plugin.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/service/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/typings/config/plugin.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/service/typings/config/plugin.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/typings/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/service/typings/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/static/common.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/static/common.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -101,42 +17,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/src/router/index.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/src/App.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/src/index.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-59">
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/src/components/CreateArticle.tsx">
+        <entry file="file://$PROJECT_DIR$/admin/src/static/common.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+            <state relative-caret-position="-120">
+              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding>
-                <element signature="e#14#45#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/package.json">
+        <entry file="file://$PROJECT_DIR$/admin/src/static/interface.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-491" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="63" column="11" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../typescript-react-example-master/admin/src/pages/article-create.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="39" column="25" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="72">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -183,10 +116,10 @@
       <find>withCredentials</find>
       <find>/login</find>
       <find>routes</find>
-      <find>changeIntroduce</find>
       <find>react-router</find>
       <find>setArticleContent</find>
       <find>types</find>
+      <find>changeIntroduce</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -198,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/service/app/router/admin.js" />
         <option value="$PROJECT_DIR$/admin/src/pages/login.js" />
         <option value="$PROJECT_DIR$/admin/src/setupProxy.js" />
         <option value="$PROJECT_DIR$/admin/src/api/request.js" />
@@ -243,12 +175,13 @@
         <option value="$PROJECT_DIR$/service/app/entiy/ResponseFactory.ts" />
         <option value="$PROJECT_DIR$/service/app/entiy/BaseResponse.ts" />
         <option value="$PROJECT_DIR$/admin/src/pages/Login.tsx" />
-        <option value="$PROJECT_DIR$/admin/src/App.tsx" />
-        <option value="$PROJECT_DIR$/admin/src/router/index.ts" />
         <option value="$PROJECT_DIR$/admin/config/webpack.config.dev.js" />
         <option value="$PROJECT_DIR$/admin/src/components/createArticle.tsx" />
         <option value="$PROJECT_DIR$/admin/src/pages/Home.tsx" />
         <option value="$PROJECT_DIR$/admin/src/components/CreateArticle.tsx" />
+        <option value="$PROJECT_DIR$/admin/src/router/index.ts" />
+        <option value="$PROJECT_DIR$/admin/src/App.tsx" />
+        <option value="$PROJECT_DIR$/admin/src/static/common.tsx" />
       </list>
     </option>
   </component>
@@ -285,55 +218,8 @@
             <path>
               <item name="merryblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="merryblog" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merryblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merryblog" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merryblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merryblog" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merryblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merryblog" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merryblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merryblog" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="entiy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merryblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merryblog" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merryblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merryblog" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merryblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merryblog" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -355,19 +241,19 @@
     <property name="ts.external.directory.path" value="D:\merryblog\service\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\merryblog\admin" />
+      <recent name="D:\merryblog\service" />
+      <recent name="D:\merryblog\service0" />
+      <recent name="D:\merryblog\service0\app" />
+      <recent name="D:\merryblog\service0\app\controller" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\merryblog\admin\src\static" />
       <recent name="D:\merryblog\admin" />
       <recent name="D:\merryblog\service\app\entiy" />
       <recent name="D:\merryblog\service0\app" />
       <recent name="D:\merryblog\blog\api" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\merryblog\service" />
-      <recent name="D:\merryblog\service0" />
-      <recent name="D:\merryblog\service0\app" />
-      <recent name="D:\merryblog\service0\app\controller" />
-      <recent name="D:\merryblog\admin\src\api" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -382,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/service/package.json" />
       <command value="run" />
@@ -437,7 +323,7 @@
       <workItem from="1593223065088" duration="1216000" />
       <workItem from="1593226009146" duration="387000" />
       <workItem from="1593226456886" duration="11847000" />
-      <workItem from="1593253493566" duration="1542000" />
+      <workItem from="1593253493566" duration="5040000" />
     </task>
     <task id="LOCAL-00001" summary="后台管理系统的搭建">
       <created>1592365790687</created>
@@ -464,18 +350,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82063000" />
+    <option name="totallyTimeSpent" value="85561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -540,11 +426,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/config/getHttpsConfig.js" />
-    <entry file="file://$PROJECT_DIR$/admin/config/webpack.config.js" />
     <entry file="file://$PROJECT_DIR$/admin/src/pages/main.js" />
     <entry file="file://$PROJECT_DIR$/admin/src/pages/login.js" />
     <entry file="file://$PROJECT_DIR$/admin/src/App.css">
@@ -733,53 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/static/interface.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/static/common.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="62" lean-forward="true" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/App.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/router/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/src/static/less/menu.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -816,6 +650,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/components/CreateArticle.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-700">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="e#14#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="63" column="11" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../typescript-react-example-master/admin/src/pages/article-create.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
@@ -826,24 +677,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-491" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/admin/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/package.json">
+    <entry file="file://$PROJECT_DIR$/admin/.github/workflows/nodejs.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="63" column="11" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="11" />
+        <state relative-caret-position="72">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/components/CreateArticle.tsx">
+    <entry file="file://$PROJECT_DIR$/service/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        <state relative-caret-position="96">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/registerServiceWorker.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2171">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
           <folding>
-            <element signature="e#14#45#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/router/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/static/interface.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/static/common.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
