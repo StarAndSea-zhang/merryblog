@@ -1,68 +1,33 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# typescript-react-app 项目内容
+此项目使用 create-react-app 搭建，配合 TypeScript 语言进行使用。并且添加了部分组件结合 Redux 进行使用。是一个简易的 TypeScript + React 入门 Demo。通过 Counter 组件中 times 次数的增加和减少进行状态管理。
 
-## Available Scripts
 
-In the project directory, you can run:
+## 项目运行
 
-### `yarn start`
+### 准备工作
+项目下载完成之后，打开项目，打开命令行，执行命令：
+``` bash
+$ cd typescript-react-app
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# 安装项目所需依赖
+$ npm install
+```
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
+### 查看运行结果
+命令行执行命令：
+``` bash
+$ npm run start
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 或执行 yarn run start
+```
 
-### `yarn build`
+即可在浏览器查看运行效果。可以点击 + 或 - 按钮测试项目效果。其中各种 TypeScript 结合 React 的用法皆可打开各个 tsx 文件进行查看。
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 注意事项
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## less-loader 的版本问题
+安装less-loader5.0.0
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+更多关于项目更详细的讲解请查看我的博客：[使用 TypeScript + React + Redux 进行项目开发（入门篇，附源码）](https://juejin.im/post/5c81d10b5188257ee7275222)
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

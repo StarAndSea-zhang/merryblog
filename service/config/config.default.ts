@@ -1,6 +1,16 @@
 import { EggAppConfig, EggAppInfo, PowerPartial } from 'egg';
 
 export default (appInfo: EggAppInfo) => {
+
+  /**
+   * @ auther zoezhang
+   * 传入EggAppConfig可通过PowerPartial类将EggAppConfig全部遍历，合并，提供智能提示
+   * export type PowerPartial<T> = {
+   * [U in keyof T]?: T[U] extends object
+   * ? PowerPartial<T[U]>
+   * : T[U]
+   * };
+   */
   const config = {} as PowerPartial<EggAppConfig>;
 
   // override config from framework / plugin
@@ -24,6 +34,10 @@ export default (appInfo: EggAppInfo) => {
     password: '19950214',
   };
 
+  config.jwt = {
+    secret: "19950214"//自定义 token 的加密条件字符串
+  };
+
   //解决跨域
   config.security = {
     csrf: {
@@ -33,8 +47,7 @@ export default (appInfo: EggAppInfo) => {
     domainWhiteList: [ '*' ]
   };
   config.cors = {
-    // origin: 'http://localhost:3000', //只允许这个域进行访问接口
-    // credentials: true,   // 开启认证
+    credentials: true,   // 开启认证
     origin: '*',
     allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS'
   };

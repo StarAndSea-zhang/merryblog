@@ -1,4 +1,7 @@
 import { Controller } from 'egg';
+import ResponseFactory from '../../entiy/ResponseFactory'
+import BaseResponse from "../../entiy/BaseResponse";
+import {UserInfo} from "../../entiy/UserInfo";
 
 export default class HomeController extends Controller {
     public async index() {
@@ -8,7 +11,7 @@ export default class HomeController extends Controller {
 
     //判断用户名密码是否正确
     async checkLogin() {
-        const {ctx} = this;
+        const {ctx,app} = this;
         // const data = ctx.query;
         // console.log('type',typeof ctx.query)
 
@@ -17,11 +20,10 @@ export default class HomeController extends Controller {
         const getUser = await ctx.service.user.validateUser(data.username, data.password);
         if (getUser) {
             //后续改为以下
-            // const token = app.jwt.sign({ username: data.username }, app.config.jwt.secret);
-
-            return ctx.body = {code: 200, msg: '登录成功'};
+            const token = app.jwt.sign({ username: data.username }, app.config.jwt.secret);
+            return (ctx.body as BaseResponse<UserInfo>) = ResponseFactory.createResponse<UserInfo>('200','登陆成功',{token});
         } else {
-            return ctx.body = {code: 401, msg: '登录失败'};
+            return (ctx.body as BaseResponse<UserInfo>) = {code: '401', msg: '登录失败',data:{}};
         }
     }
 }

@@ -20,6 +20,6 @@ export default class HomeController extends Controller {
         // const results = await this.app.mysql.query(sql)
         const article = await this.ctx.model.Article.findAll();
 
-        this.ctx.body = {code:'200',data:article}
+        this.ctx.body  = {code:'200',data:article}
     }
 }

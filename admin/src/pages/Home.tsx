@@ -1,36 +1,37 @@
-import React from 'react';
+import * as React from 'react';
+import '../static/less/menu.less'
 import {Layout, Menu} from 'antd';
-import '@/static/less/menu.less'
 import {
-    AppstoreOutlined,
-    MenuUnfoldOutlined,
-    MenuFoldOutlined,
-    HomeOutlined,
     FileAddOutlined,
+    HomeOutlined,
     ProfileOutlined
 } from '@ant-design/icons';
-import { Route } from "react-router-dom";
-import createArticle from '@/pages/article-create'
+import {Route} from "react-router";
+const {Content,Header, Sider} = Layout;
+import createArticle from '../components/CreateArticle'
 
-const {SubMenu} = Menu;
-const {Header, Sider, Content} = Layout;
+interface IState {
+    collapsed:boolean;
+}
+export default class Home extends React.PureComponent<{},IState> {
+    constructor(props:{}){
+        super(props);
+        this.state = {
+            collapsed: false,
+        };
+    }
 
-class Home extends React.Component {
-    state = {
-        collapsed: false,
-    };
 
+    // private toggle = () => {
+    //     this.setState({
+    //         collapsed: !this.state.collapsed,
+    //     });
+    // };
 
-    toggle = () => {
-        this.setState({
-            collapsed: !this.state.collapsed,
-        });
-    };
-
-    render() {
+    public render() {
         return (
             <Layout style={{ minHeight: '100vh' }}>
-                <Sider trigger={null} collapsible collapsed={this.state.collapsed}>
+                <Sider trigger={null} collapsible={true} collapsed={this.state.collapsed}>
                     <div className="logo"/>
                     <Menu
                         defaultSelectedKeys={['1']}
@@ -49,12 +50,7 @@ class Home extends React.Component {
                     </Menu>
                 </Sider>
                 <Layout className="site-layout">
-                    <Header className="site-layout-background" style={{paddingLeft: 20}}>
-                        {React.createElement(this.state.collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
-                            className: 'trigger',
-                            onClick: this.toggle,
-                        })}
-                    </Header>
+                    <Header className="site-layout-background"/>
                     <Content
                         className="site-layout-background"
                         style={{
@@ -64,13 +60,11 @@ class Home extends React.Component {
                         }}
                     >
                         <div>
-                            <Route path="/home/" exact component={createArticle} />
+                            <Route path="/home/" exact={true} component={createArticle} />
                         </div>
                     </Content>
                 </Layout>
             </Layout>
-        );
+        )
     }
 }
-
-export default Home;

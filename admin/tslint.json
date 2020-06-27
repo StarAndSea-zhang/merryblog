@@ -1,0 +1,35 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "interface-name": [true],
+  "paths": {
+    "@/*": ["*"],
+    "@com/*": ["component/*"]
+  },
+  "rules": {
+    "ordered-imports": false,
+    "object-literal-sort-keys": false ,//Disable for typescript
+    "no-console": false,
+    "jsx-no-lambda": false,
+    "interface-name": [true],
+    "member-ordering": false,
+    // 必须使用箭头函数，除非是单独的函数声明或是命名函数
+    "only-arrow-functions": [
+      false,
+      "allow-declarations",
+      "allow-named-functions"
+    ],
+    "disable-next-line":"forin"
+  },
+  "jsRules": {
+    "object-literal-sort-keys": false ,//Disable for javascript
+    "no-console": false,
+    "interface-name": [true, "never-prefix"]
+  },
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js"
+    ]
+  }
+}
