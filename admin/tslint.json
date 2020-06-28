@@ -6,6 +6,7 @@
     "@com/*": ["component/*"]
   },
   "rules": {
+    "jsx-boolean-value": false,
     "ordered-imports": false,
     "object-literal-sort-keys": false ,//Disable for typescript
     "no-console": false,
@@ -21,6 +22,7 @@
     "disable-next-line":"forin"
   },
   "jsRules": {
+    "jsx-boolean-value": false,
     "object-literal-sort-keys": false ,//Disable for javascript
     "no-console": false,
     "interface-name": [true, "never-prefix"]

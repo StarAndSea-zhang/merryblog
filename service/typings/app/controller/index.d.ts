@@ -2,13 +2,17 @@
 // Do not modify this file!!!!!!!!!
 
 import 'egg';
-import ExportAdminHome from '../../../app/controller/admin/home';
+import ExportAdminArticle from '../../../app/controller/admin/article';
+import ExportAdminAuth from '../../../app/controller/admin/auth';
+import ExportAdminType from '../../../app/controller/admin/type';
 import ExportDefaultHome from '../../../app/controller/default/home';
 
 declare module 'egg' {
   interface IController {
     admin: {
-      home: ExportAdminHome;
+      article: ExportAdminArticle;
+      auth: ExportAdminAuth;
+      type: ExportAdminType;
     }
     default: {
       home: ExportDefaultHome;

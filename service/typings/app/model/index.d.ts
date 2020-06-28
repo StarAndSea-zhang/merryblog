@@ -3,7 +3,7 @@
 
 import 'egg';
 import ExportArticle from '../../../app/model/article';
-import ExportType = require('../../../app/model/type');
+import ExportType from '../../../app/model/type';
 import ExportUser = require('../../../app/model/user');
 
 declare module 'egg' {

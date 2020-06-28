@@ -3,7 +3,7 @@ import ResponseFactory from '../../entiy/ResponseFactory'
 import BaseResponse from "../../entiy/BaseResponse";
 import {UserInfo} from "../../entiy/UserInfo";
 
-export default class HomeController extends Controller {
+export default class AuthController extends Controller {
     public async index() {
         const { ctx } = this;
         ctx.body = await ctx.service.test.sayHi('egg');
@@ -21,9 +21,9 @@ export default class HomeController extends Controller {
         if (getUser) {
             //后续改为以下
             const token = app.jwt.sign({ username: data.username }, app.config.jwt.secret);
-            return (ctx.body as BaseResponse<UserInfo>) = ResponseFactory.createResponse<UserInfo>('200','登陆成功',{token});
+            return (ctx.body as BaseResponse<UserInfo>) = ResponseFactory.createResponse<UserInfo>('200',{token},'登陆成功');
         } else {
-            return (ctx.body as BaseResponse<UserInfo>) = {code: '401', msg: '登录失败',data:{}};
+            return (ctx.body as BaseResponse<UserInfo>) = ResponseFactory.createResponse<UserInfo>('401',{})
         }
     }
 }
