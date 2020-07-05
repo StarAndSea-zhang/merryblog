@@ -1,9 +1,14 @@
-import { Service } from 'egg';
+import {Service} from 'egg';
+
 /**
  * Test Service
  */
 export default class Catagories extends Service {
     async list() {
-        return await this.ctx.model.Type.findAll();
+        try {
+            return await this.ctx.model.Type.findAll();
+        } catch (err) {
+            throw new Error(err);
+        }
     }
 }

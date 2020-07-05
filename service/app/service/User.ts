@@ -1,4 +1,5 @@
-import { Service } from 'egg';
+import {Service} from 'egg';
+
 const crypto = require('crypto');
 const DEFAULT_PWD = '123456'
 /**
@@ -6,27 +7,34 @@ const DEFAULT_PWD = '123456'
  */
 export default class User extends Service {
 
-    async validateUser(username:string, password:string) {
-        const data = await this.ctx.model.User.findAll();
-        const pwd = this.getMd5Data(password);
-        for (const item of data) {
-            // console.log('加密',item.dataValues.username)
-            if (item.dataValues.username === username && item.dataValues.password === pwd)
-                return true;
+    async validateUser(username: string, password: string) {
+        try {
+            const data = await this.ctx.model.User.findAll();
+            const pwd = this.getMd5Data(password);
+            for (const item of data) {
+                // console.log('加密',item.dataValues.username)
+                if (item.dataValues.username === username && item.dataValues.password === pwd)
+                    return true;
+            }
+            return false;
+        } catch (e) {
+            return false;
         }
-        return false;
+
     }
 
-    getMd5Data(data:string) {
+    getMd5Data(data: string) {
         //返回加密的密文16进制
         return crypto.createHash('md5').update(data).digest('hex');
     }
+
     // 新增人员
-    async createUser(username:string) {
-        const { ctx } = this;
+    async createUser(username: string) {
+        const {ctx} = this;
         const password = this.getMd5Data(DEFAULT_PWD);
-        await ctx.model.User.create({ username, password });
+        await ctx.model.User.create({username, password});
     }
+
     async getUserById(id) {
         const {ctx} = this;
         let userInfo = {};
